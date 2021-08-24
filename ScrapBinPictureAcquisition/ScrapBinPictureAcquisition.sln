@@ -3,9 +3,24 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ScrapBinPics", "ScrapBinPics", "{88BAB867-D02F-4128-919B-E68F72077A7F}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ScrapBinPictureAcquisition", "ScrapBinPictureAcquisition.pyproj", "{A816EAED-B077-4690-A340-DE0AFFBFA56F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A816EAED-B077-4690-A340-DE0AFFBFA56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A816EAED-B077-4690-A340-DE0AFFBFA56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A816EAED-B077-4690-A340-DE0AFFBFA56F} = {88BAB867-D02F-4128-919B-E68F72077A7F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {305804E9-28A3-46CC-9C31-67A65142E867}
